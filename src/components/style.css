@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    background-image: url('sea-6553205_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container h1{
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: rgb(43, 42, 42);
+    
+
+}
+.Form{
+    width:30%;
+    padding:2%;
+    margin-top: 5%;
+    border: 1px solid grey;
+    margin-left: 4%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.body{
+    margin: auto;
+    padding: auto;
+    width: 70%;
+    display: flex;
+}
+
+.Form h2{
+    font-size: 35px;
+}
+.Form label{
+    color:#131212;
+    font-size: 25px;
+    padding-top: 2%;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Form input{
+    width:250px;
+}
+.output{
+    width:30%;
+    padding:2%;
+    margin-top: 5%;
+    border: 1px solid grey;
+    margin-left: 4%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+
+}
+.output h2{
+    font-size: 35px;
+    text-transform:capitalize;
+    color:#1d2020;
+}
+.Form button{
+    margin-top: 4%;
+    padding:15px 15px;
+    background-color: rgb(50, 50, 161);
+    color: white;
+}
