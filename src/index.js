@@ -4,10 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Landing from './components/landing';
 import Details from './components/formdetails';
+import Menu from './old/landing';
+import 'font-awesome/css/font-awesome.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,7 +1,7 @@
 import { Formik } from 'formik'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './style.css'
+import './styling.css'
 
 const Form = ({ AddUser, users }) => {
     const [name, setName] = useState('')

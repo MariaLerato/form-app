@@ -1,0 +1,106 @@
+body{
+    background-image: url('take_mountain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head-container{
+    margin: auto;
+    padding:auto;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    opacity: 0.6;
+    
+}
+.left-container{
+    padding:2%;
+    width:50%;
+}
+.left-head{
+    width:80%;
+    
+
+}
+
+
+.left-head img{
+    width:100%;
+    /* padding:8%; */
+    border-radius: 30%;
+    margin-left: 5%;
+}
+
+.summary p{
+    padding-right: 1%;
+}
+.summary h2{
+    padding-bottom: -1%;
+    margin-top: 2%;
+}
+.heading{
+    margin-bottom: 10%;
+}
+.heading h1{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 3%;
+    color:#706c6c;
+}
+.heading h2{
+    text-align: center;
+    margin-top: -1em;
+    font-family: 'Allison', cursive;
+    font-size: 35px;
+    font-weight: lighter;
+    
+}
+.personal{
+    width:30%;
+}
+.work-container{
+    display: flex;
+    width:100%;
+}
+.date{
+    width:20%;
+    /* padding-top: 5%; */
+}
+.work{
+    width:70%;
+    margin-top:-2em;
+}
+.work h3{
+    padding-top: 2%;
+}
+.work h5{
+    margin-top: -1em;
+}
+.edu-container{
+    display: flex;
+}
+.edu-date{
+    width:20%;
+    margin-top:-1.5em;
+}
+.high{
+    margin-top:-2em;
+}
+.college{
+    padding-top: 2%;
+}
+.reference h4{
+    margin-top: -1em;
+}
+.code{
+    margin-top: -1em;
+}
+.system{
+    margin-top: -1em;
+}
+.skills{
+    padding:2%;
+}

@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-image: url('sea-6553205_1920.jpg');
+    /* background-image: url('sea-6553205_1920.jpg'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
