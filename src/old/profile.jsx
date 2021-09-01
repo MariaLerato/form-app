@@ -4,6 +4,14 @@ import './stylesheet.css'
 const Profile = () =>{
     return(
         <div className="profile-container">
+            <div class="section group">
+	<div class="col span_1_of_2">
+	
+	</div>
+	<div class="col span_1_of_2">
+	
+	</div>
+</div>
             <div className="profile1">
                 <i className="fa fa-user fa-5x"></i>
                 <p className="details">

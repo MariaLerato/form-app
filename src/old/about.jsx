@@ -6,7 +6,14 @@ const About = () => {
     return (
         <div className="container">
 
-
+<div class="section group">
+	<div class="col span_1_of_2">
+	
+	</div>
+	<div class="col span_1_of_2">
+	
+	</div>
+</div>
             <container class="head-container">
                 <div class="left-container">
                     <div class="left-head">
