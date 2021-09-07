@@ -17,6 +17,7 @@ const Landing = () =>{
             location:location
         }])
     }
+    console.log('users',users)
     return(
         <>
         <Router>

@@ -5,17 +5,15 @@ import './style.css'
 const About = () => {
     return (
         <div className="container">
-
-<div class="section group">
-	<div class="col span_1_of_2">
-	
-	</div>
-	<div class="col span_1_of_2">
-	
-	</div>
-</div>
-            <container class="head-container">
-                <div class="left-container">
+             <div class="section group">
+	                <div class="col span_1_of_2">
+	                </div>
+	                <div class="col span_1_of_2">
+	                </div>
+                </div>
+            <container className="head-container">
+               
+                <div className="left-container">
                     <div class="left-head">
                         <img src={k} alt="me" />
                     </div>
@@ -50,7 +48,8 @@ const About = () => {
                             <h2>Work Experience</h2>
                             <div class="work-container">
                                 <div class="date">
-                                    June 2021 - November 2021
+                                    June 2021 -
+                                 <br />    Nov 2021
                                 </div>
                                 <div class="work">
                                     <h3>Software Development Trainee</h3>

@@ -4,14 +4,17 @@ import './stylesheet.css'
 const Profile = () =>{
     return(
         <div className="profile-container">
-            <div class="section group">
-	<div class="col span_1_of_2">
-	
-	</div>
-	<div class="col span_1_of_2">
-	
-	</div>
-</div>
+            {/* <div class="section group"> */}
+	            {/* <div className="menu-container"> */}
+                <div class="section group">
+	                <div class="col span_1_of_2">
+	                    {/*This is column 1 */}
+	                </div>
+                    <div class="col span_1_of_2">
+	                    {/* This is column 2 */}
+	                </div>    
+               
+                </div>
             <div className="profile1">
                 <i className="fa fa-user fa-5x"></i>
                 <p className="details">
@@ -33,6 +36,7 @@ const Profile = () =>{
                         <h6>fenyane02</h6>
                     </p>
             </div>
+            
             <div className="profile3">
                 <i className="fa fa-envelop fa-5x"></i>
                 <p>
@@ -46,7 +50,8 @@ const Profile = () =>{
                     <h2>Linked in</h2>
                     <h5>Maria Lerato</h5></p>            
             </div>
-        </div>
+            </div>
+        // </div>
     )
 }
 export default Profile

@@ -32,10 +32,48 @@
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
+    .profile-container{
+        /* margin-left: 1%; */
+        padding: auto;
+       /* align-items: left; */
+        /* width: 0%; */
+        /* justify-content: left; */
+        /* display: inline; */
+    }
+    .right-side{
+        width: 100%;
+        margin-top: 8em;
+        display: none;
+    }
+    .right-side img{
+        /* width: 1000px; */
+    }
 }
 
 @media only screen and (max-width: 480px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
+    .profile-container{
+        margin-left: 1%;
+        padding: auto;
+       align-items: left;
+        width: 0%;
+        justify-content: left;
+        display: inline;
+        background-color: antiquewhite;
+    }
+    .users h1{
+        text-align: left;
+        color: rgb(134, 129, 129);
+        font-family: cursive;
+    }
+    .users{
+        text-align: center !important;
+    }
+    .users ul{
+        color:rgb(17, 17, 16);
+        /* text-align: center; */
+        /* width: 100%; */
+    }
 }
 .home-container{
     width:99%;

@@ -27,12 +27,10 @@ const Users = () =>{
         <div className="users-container">
             <div class="section group">
 	            <div class="col span_1_of_2">
-	
-	        </div>
-	        <div class="col span_1_of_2">
-	
-	        </div>
-</div>
+	            </div>
+	            <div class="col span_1_of_2">
+	            </div>
+            </div>
             <div className="users">
                 <h1>User List</h1>
            <ul>

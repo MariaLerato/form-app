@@ -6,10 +6,12 @@ import Landing from './components/landing';
 import Details from './components/formdetails';
 import Menu from './old/landing';
 import 'font-awesome/css/font-awesome.min.css'
+import Form from './components/form';
+import NewForm from './components/newform';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menu />
+    <NewForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
