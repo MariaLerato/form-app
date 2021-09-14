@@ -14,10 +14,10 @@
     align-items: center;
     font-family: cursive;
     color: rgb(43, 42, 42);
-    
-
 }
-.Form{
+
+
+.For{
     width:30%;
     padding:2%;
     margin-top: 5%;
@@ -48,6 +48,7 @@
 .output{
     width:30%;
     padding:2%;
+   
     margin-top: 5%;
     border: 1px solid grey;
     margin-left: 4%;
@@ -55,10 +56,15 @@
     opacity: 0.5;
 
 }
+
 .output h2{
     font-size: 35px;
     text-transform:capitalize;
     color:#1d2020;
+}
+.output a {
+    color:black;
+    font-size:35;
 }
 .Form button{
     margin-top: 4%;

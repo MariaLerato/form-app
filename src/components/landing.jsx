@@ -25,11 +25,7 @@ const Landing = () =>{
             <Switch>
              
                 <Route path={'/formdetails'}>
-                    {users.map((props)=>(
-                        <Fragment>
-                             <Details props={props} />
-                        </Fragment>
-                    ))}
+                    <Details users={users} />
                    
                 </Route>
               

@@ -11,7 +11,7 @@ import NewForm from './components/newform';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NewForm />
+    <Landing />
   </React.StrictMode>,
   document.getElementById('root')
 );
