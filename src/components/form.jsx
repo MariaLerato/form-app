@@ -20,6 +20,10 @@ const Form = ({ AddUser, users }) => {
         e.preventDefault()
         AddUser(name, surname, age, location)
     }
+    const DeleteUser = (e) =>{
+        e.preventDefault()
+        AddUser(name,surname)
+    }
     return (
         <>
       
@@ -87,7 +91,14 @@ const Form = ({ AddUser, users }) => {
             <div className="output">
                 <h2>Users</h2>
                     <ul>
-                        {users.map((action) => <li key={action.id + 1}> <Link to="/formdetails">{action.name}{' '}{action.surname}</Link></li>)}
+                        {
+                        users.map((action) => <li key={action.id + 1}> <Link to="/formdetails">{action.name}{' '}{action.surname}</Link></li>
+                        
+                        
+                        )
+                      
+                        }
+                        <button type="reset" onClick={DeleteUser} >x </button>
                     </ul>
             </div>
         </div> 
