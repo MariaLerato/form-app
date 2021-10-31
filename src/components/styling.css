@@ -1,74 +1,54 @@
-.container{
-    display: flex;
-    /* background-image: url('sea-6553205_1920.jpg'); */
+.containe{
+    background-image: url('./images/book.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     width: 100%;
-}
-.container h1{
-    text-align: right;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-    color: rgb(43, 42, 42);
+    height: 290px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
 }
 
-
-.For{
-    width:30%;
-    padding:2%;
-    margin-top: 5%;
-    border: 1px solid grey;
-    margin-left: 4%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.6;
-}
-.body{
-    margin: auto;
+.form-group{
+    width: 40%;
     padding: auto;
-    width: 70%;
-    display: flex;
+    margin: auto;
+    background-color: #e4f1f5;
+    margin-top: -4em;
+    border-radius: 40px;
+    padding-left: 5%;
+    border-width: 10%;
+    padding-top: 5%;
+    height: 400px;
+    font-weight: 800;
+    font-size: large;
+    color: #707372;
 }
-
-.Form h2{
-    font-size: 35px;
+.textHeading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  color: rgb(68, 62, 62);
+  padding-top: 80px;
 }
-.Form label{
-    color:#131212;
-    font-size: 25px;
-    padding-top: 2%;;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.name{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 4px;
+    padding: 4px;
 }
-.Form input{
-    width:250px;
-}
-.output{
-    width:30%;
-    padding:2%;
+.nameinput{
+    margin: 2em;
+    align-self: center;
+    padding: 8px;
    
-    margin-top: 5%;
-    border: 1px solid grey;
-    margin-left: 4%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
-
 }
-
-.output h2{
-    font-size: 35px;
-    text-transform:capitalize;
-    color:#1d2020;
-}
-.output a {
-    color:black;
-    font-size:35;
-}
-.Form button{
-    margin-top: 4%;
-    padding:15px 15px;
-    background-color: rgb(50, 50, 161);
-    color: white;
+.button{
+    background-color:'#557b8a';
+    color:'white';
+    width:205;
+    height: 50;
+    margin-top:5;
 }

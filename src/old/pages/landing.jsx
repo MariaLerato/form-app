@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./about";
 import Home from "./home";
 import Profile from "./profile";
-import Users from "./users";
+import Users from "../users";
 
 const Menu = () =>{
     return(

@@ -2,6 +2,7 @@ import React,{Fragment, useState} from 'react'
 import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
 import Form from './form'
 import Details from './formdetails'
+import Formed from './formed'
 import Map from './map'
 
 
@@ -17,7 +18,7 @@ const Landing = () =>{
             location:location
         }])
     }
-    console.log('users',users)
+    console.log('user created',users)
     return(
         <>
         <Router>
@@ -28,9 +29,12 @@ const Landing = () =>{
                     <Details users={users} />
                    
                 </Route>
+                <Route path={'/map'}>
+                    <Map users={users} />
+                </Route>
               
                 <Route path={'/'}>
-                    <Form  users={users} AddUser={AddUser}/>
+                    <Formed  users={users} AddUser={AddUser}/>
                 </Route>
             </Switch>
        

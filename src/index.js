@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Landing from './components/landing';
-import Details from './components/formdetails';
-import Menu from './old/landing';
+import Map from './components/map';
 import 'font-awesome/css/font-awesome.min.css'
-import Form from './components/form';
-import NewForm from './components/newform';
+import Formed from './components/formed';
+
 
 ReactDOM.render(
   <React.StrictMode>

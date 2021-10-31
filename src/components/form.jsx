@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styling.css'
 import * as Yup from 'yup'
+
 const Form = ({ AddUser, users }) => {
     const [name, setName] = useState('')
     const [surname, setSurname] = useState('')
@@ -16,18 +17,15 @@ const Form = ({ AddUser, users }) => {
         location:Yup.string().required("Enter location")
     })
     
-    const Adduser = (e) => {
-        e.preventDefault()
-        AddUser(name, surname, age, location)
-    }
     const DeleteUser = (e) =>{
         e.preventDefault()
         AddUser(name,surname)
     }
     return (
-        <>
-      
+        <>  
         <div className="containe">
+            <h1 className={'textHeading'}>Registration Form</h1>
+        </div>
             <div className="bod">
             <div className="For">
                 
@@ -53,8 +51,8 @@ const Form = ({ AddUser, users }) => {
                     isValid
 
                 })=>(
-                    <div className="form-group row">
-                        <h1 style={{fontFamily:'cursive',fontWeight:'bold',fontSize:25}}>Registration Form</h1>
+                    <div className="form-group-row">
+                        <div className='form-group'>
                         <label for="colFormLabelSm" className="col-sm-2 col-form-label col-form-label-sm" >Name</label>
                         <div className="col-sm-10">
                             <input type="text" className="form-control form-control-sm"  onChange={handleChange("name")} value={values.name} id="colFormLabelSm" onBlur={handleBlur("name")} placeholder="Enter Name" />
@@ -83,8 +81,9 @@ const Form = ({ AddUser, users }) => {
                                 <h6 style={{color:'red',textAlign:'center'}}>{errors.name}</h6>
                             )}
                         </div>
-                        <button type="submit" style={{backgroundColor:'red',color:'white',width:205,height: 50, marginTop:5}} className="btn btn-primary" onClick={handleSubmit}>Add User</button>
-                    </div>
+                        <button type="submit"  className="button" onClick={handleSubmit}>Add User</button>
+                   </div>
+                     </div>
                 )}
             </Formik>
             </div>    
@@ -102,7 +101,7 @@ const Form = ({ AddUser, users }) => {
                     </ul>
             </div>
         </div> 
-        </div>
+        
        </>     
     )
 }
