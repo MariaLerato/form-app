@@ -6,11 +6,11 @@ import Landing from './components/landing';
 import Map from './components/map';
 import 'font-awesome/css/font-awesome.min.css'
 import Formed from './components/formed';
-
+import Menu from './old/pages/landing'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );

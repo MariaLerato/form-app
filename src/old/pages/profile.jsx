@@ -1,5 +1,5 @@
 import React from 'react'
-import './stylesheet.css'
+import '../stylesheet.css'
 
 const Profile = () =>{
     return(
@@ -16,7 +16,7 @@ const Profile = () =>{
                
                 </div>
             <div className="profile1">
-                <i className="fa fa-user fa-5x"></i>
+                <i className="fa fa-user fa-4x"></i>
                 <p className="details">
                     <h1>Maria Fenyane</h1>
                     <h2>Software Developer</h2>
@@ -24,31 +24,31 @@ const Profile = () =>{
                 </p>
             </div>
             <div className="profile2">
-                <i className="fa fa-facebook fa-5x"></i>
+                <i className="fa fa-facebook fa-4x"></i>
                 <p>
-                    <h2>Facebook Acoount</h2>
+                    <h2>Facebook Acount</h2>
                     https://facebook.com/Maria_Lerato</p>
             </div>
             <div className="profile4">
-                <i className="fa fa-instagram fa-5x"> </i>
+                <i className="fa fa-github fa-5x"> </i>
                     <p>
-                        <h2>Instagram Account</h2>
-                        <h6>fenyane02</h6>
+                        <h2>Github Account</h2>
+                        <h6>https://github.com/MariaLerato</h6>
                     </p>
             </div>
             
             <div className="profile3">
-                <i className="fa fa-envelop fa-5x"></i>
+            <i className="fa fa-envelope fa-3x"></i>
                 <p>
                   <h2>  GMAIL ACCOUNT</h2>
-                  <h5>fenyane02@gmail.com</h5>
+                  <h6>fenyane02@gmail.com</h6>
                 </p>
             </div>
             <div className="profile5">
-                <i className="fa fa-linkedin fa-5x"></i>
+                <i className="fa fa-linkedin fa-3x"></i>
                 <p>
                     <h2>Linked in</h2>
-                    <h5>Maria Lerato</h5></p>            
+                    <h6>https://linkedin.com/MariaLerato</h6></p>            
             </div>
             </div>
         // </div>
